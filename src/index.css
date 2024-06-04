@@ -1,11 +1,10 @@
-* {
-  box-sizing: border-box;
-  text-align:center;
-}
+
 
 body {
   margin: 0;
   font-family: "Barlow";
+  box-sizing: border-box;
+  text-align:center;
 }
 
 code {
