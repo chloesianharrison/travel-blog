@@ -1,12 +1,27 @@
 
 import data from './data.js'
 import './App.css';
+import Navbar from './componants/Navbar.js'
+import Card from './componants/Card.js';
+
+const info = data.map(item => {
+  console.log(item)
+  return (
+    <Card
+      key={item.id}
+      item={item}
+    />
+  )
+});
+
 
 function App() {
+
   return (
     <div className="App">
-      <h1>Travel blog</h1>
-      <h1>{data[0].title}</h1>
+      <Navbar />
+      {info}
+
     </div>
   );
 }

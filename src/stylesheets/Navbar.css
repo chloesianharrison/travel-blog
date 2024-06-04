@@ -1,0 +1,23 @@
+/* Rectangle 85 */
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  left: 0px;
+  top: 0px;
+  background: #319252;
+  color: #FFF;
+}
+
+.navbar > h1  {
+  font-size: 30px;
+  margin-left: 15px;
+}
+
+.navbar > .fa-earth-americas {
+  font-size: 50px;
+  margin-right: 15px;
+}
